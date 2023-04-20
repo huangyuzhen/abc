@@ -5,8 +5,8 @@ services:
     image: php:7.4.33-fpm
     container_name: chatgpt
     restart: always
-    ports:
-     - 9000:9000
+#    ports:
+#     - 9000:9000
     volumes:
      - ./my_php.ini:/etc/php7/conf.d/00_my.ini
      - /Users/hyz/box/chat1/www/chatgpt:/www
